@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <rect width="900" height="460" fill="#f4f8fc"/>
+  <text x="450" y="28" text-anchor="middle" font-size="20" font-weight="bold">Fig 3 - Sky bullet (glider) configuration</text>
+  <text x="225" y="60" text-anchor="middle" font-weight="bold">Top view</text>
+  <!-- fuselage -->
+  <path d="M60,150 L330,130 L330,170 Z" fill="#e8a33d" stroke="#333" stroke-width="2"/>
+  <!-- wings (folded or swept) -->
+  <polygon points="200,145 280,80 300,140" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="200,155 280,220 300,160" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="85" y="125" fill="#333">Nose</text>
+  <text x="335" y="155" fill="#333">Tail</text>
+  <text x="290" y="70" fill="#333">Wings</text>
+  <text x="70" y="200" fill="#333">Cargo in front</text>
+  <line x1="95" y1="188" x2="110" y2="157" stroke="#333" marker-end="none"/>
+  <!-- side view -->
+  <text x="675" y="60" text-anchor="middle" font-weight="bold">Side view</text>
+  <path d="M520,150 Q600,125 700,140 L760,150 L700,160 Q600,175 520,150 Z" fill="#e8a33d" stroke="#333" stroke-width="2"/>
+  <line x1="640" y1="140" x2="700" y2="100" stroke="#333" stroke-width="3"/>
+  <text x="705" y="95" fill="#333">Wing</text>
+  <text x="520" y="190" fill="#333">Cargo bay</text>
+  <text x="640" y="190" fill="#333">Thermal-vision sensor</text>
+  <!-- spec -->
+  <rect x="60" y="260" width="780" height="170" fill="#fff" stroke="#999"/>
+  <text x="75" y="284" font-weight="bold">Design intent from the notes</text>
+  <text x="75" y="308">- Wings with cargo in front of the wings.</text>
+  <text x="75" y="330">- Unpowered glide: no fuel, no heavy batteries ("gliding means no weight wasted on batteries").</text>
+  <text x="75" y="352">- Thermal vision question: can it see thermals (rising warm air) to extend range?</text>
+  <text x="75" y="374">- Small onboard power for weather and obstacle dodging.</text>
+  <text x="75" y="396">- Alternative form factor: a frisbee-like glider (spinning disc stabilised by rotation).</text>
+  <text x="75" y="418">- Human payload variant is bounded by the max launch acceleration (see README).</text>
+</svg>

@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+# Blender
+*.blend1
+*.blend2
+blender/renders/*
+!blender/renders/.gitkeep
+# Python sim
+sim/__pycache__/
+sim/.venv/
+*.pyc
+# Godot 4
+sky-bullet/.godot/
+sky-bullet/export_presets.cfg
+# Secrets
+.env

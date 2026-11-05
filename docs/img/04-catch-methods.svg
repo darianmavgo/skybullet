@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="900" height="620" fill="#f4f8fc"/>
+  <text x="450" y="28" text-anchor="middle" font-size="20" font-weight="bold">Fig 4 - Catcher platform options</text>
+  <!-- panel template -->
+  <g stroke="#999" fill="#fff">
+    <rect x="30" y="50" width="415" height="260"/><rect x="455" y="50" width="415" height="260"/>
+    <rect x="30" y="320" width="415" height="260"/><rect x="455" y="320" width="415" height="260"/>
+  </g>
+  <!-- 1 landing skid -->
+  <text x="45" y="76" font-weight="bold">1. Landing skin / skid</text>
+  <line x1="60" y1="260" x2="420" y2="260" stroke="#333" stroke-width="4"/>
+  <path d="M60,120 Q250,130 330,240" fill="none" stroke="#e8a33d" stroke-width="3" stroke-dasharray="3 5" marker-end="url(#a)"/>
+  <polygon points="330,240 365,248 335,254" fill="#e8a33d" stroke="#333"/>
+  <text x="45" y="290" fill="#333">Glider lands on a skid and slides to a stop.</text>
+  <!-- 2 belly flop -->
+  <text x="470" y="76" font-weight="bold">2. Belly flop</text>
+  <line x1="480" y1="260" x2="850" y2="260" stroke="#333" stroke-width="4"/>
+  <path d="M490,110 Q650,120 700,170" fill="none" stroke="#e8a33d" stroke-width="3" stroke-dasharray="3 5"/>
+  <path d="M700,170 L730,230" stroke="#e8a33d" stroke-width="3" marker-end="url(#a)"/>
+  <text x="740" y="200" fill="#333">flares to</text><text x="740" y="218" fill="#333">belly-down</text>
+  <text x="470" y="290" fill="#333">Pitch-up flop at a set point (Starship / hang glider).</text>
+  <!-- 3 balloon bungee -->
+  <text x="45" y="346" font-weight="bold">3. Bungee of balloons</text>
+  <circle cx="150" cy="430" r="26" fill="#fff" stroke="#333" stroke-width="2"/>
+  <circle cx="240" cy="470" r="26" fill="#fff" stroke="#333" stroke-width="2"/>
+  <circle cx="330" cy="430" r="26" fill="#fff" stroke="#333" stroke-width="2"/>
+  <path d="M60,380 Q250,420 330,420" fill="none" stroke="#e8a33d" stroke-width="3" stroke-dasharray="3 5" marker-end="url(#a)"/>
+  <text x="45" y="560" fill="#333">Balloons designed to cushion and capture the bullet.</text>
+  <!-- 4 frisbee -->
+  <text x="470" y="346" font-weight="bold">4. Frisbee glider</text>
+  <ellipse cx="620" cy="440" rx="60" ry="14" fill="#e8a33d" stroke="#333" stroke-width="2"/>
+  <path d="M470,380 Q560,380 600,420" fill="none" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M570,425 A55,16 0 0 0 680,425" fill="none" stroke="#c33" marker-end="url(#a)"/>
+  <text x="700" y="440" fill="#333">spin-stabilised</text>
+  <text x="470" y="560" fill="#333">Make the glider a disc ("frisbee air physics").</text>
+</svg>

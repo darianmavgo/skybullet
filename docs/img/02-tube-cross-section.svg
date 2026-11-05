@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="900" height="520" fill="#f4f8fc"/>
+  <text x="450" y="28" text-anchor="middle" font-size="20" font-weight="bold">Fig 2 - Launch tube: side section and firing sequence</text>
+  <!-- tube -->
+  <rect x="60" y="80" width="760" height="70" fill="#fff" stroke="#333" stroke-width="3"/>
+  <text x="440" y="70" text-anchor="middle" fill="#333">Rotating launch tube (axis of rotation at left)</text>
+  <circle cx="60" cy="115" r="8" fill="#333"/>
+  <text x="40" y="170" fill="#333">Hub</text>
+  <!-- elevator / magazine -->
+  <rect x="120" y="86" width="140" height="58" fill="#dde" stroke="#333"/>
+  <text x="190" y="120" text-anchor="middle">Elevator / magazine</text>
+  <!-- loaded gliders in magazine -->
+  <polygon points="130,100 160,106 130,112" fill="#e8a33d" stroke="#333"/>
+  <polygon points="130,118 160,124 130,130" fill="#e8a33d" stroke="#333"/>
+  <!-- vacuum line -->
+  <rect x="280" y="86" width="260" height="58" fill="#eef" stroke="#99c" stroke-dasharray="5 4"/>
+  <text x="410" y="108" text-anchor="middle" fill="#336">Vacuum section</text>
+  <text x="410" y="128" text-anchor="middle" fill="#336">suction chambers round</text>
+  <!-- chambered glider -->
+  <polygon points="560,100 620,115 560,130" fill="#e8a33d" stroke="#333"/>
+  <text x="590" y="152" text-anchor="middle">Chambered</text>
+  <!-- propeller -->
+  <g stroke="#333" stroke-width="3"><line x1="650" y1="92" x2="650" y2="138"/><line x1="630" y1="105" x2="670" y2="125"/><line x1="630" y1="125" x2="670" y2="105"/></g>
+  <text x="650" y="160" text-anchor="middle">Propeller</text>
+  <!-- exit -->
+  <line x1="820" y1="115" x2="880" y2="115" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="850" y="100" text-anchor="middle">exit</text>
+  <!-- sequence -->
+  <g>
+    <rect x="60" y="230" width="190" height="120" fill="#fff" stroke="#999"/>
+    <text x="70" y="252" font-weight="bold">1. Load</text>
+    <text x="70" y="274">Elevator raises next</text>
+    <text x="70" y="294">glider from magazine</text>
+    <text x="70" y="314">into the tube axis.</text>
+    <rect x="270" y="230" width="190" height="120" fill="#fff" stroke="#999"/>
+    <text x="280" y="252" font-weight="bold">2. Chamber</text>
+    <text x="280" y="274">Tube is already spinning;</text>
+    <text x="280" y="294">vacuum suction pulls the</text>
+    <text x="280" y="314">round to chamber position.</text>
+    <rect x="480" y="230" width="190" height="120" fill="#fff" stroke="#999"/>
+    <text x="490" y="252" font-weight="bold">3. Accelerate</text>
+    <text x="490" y="274">Propeller / rotation drives</text>
+    <text x="490" y="294">the glider outward along</text>
+    <text x="490" y="314">the tube to tip speed.</text>
+    <rect x="690" y="230" width="190" height="120" fill="#fff" stroke="#999"/>
+    <text x="700" y="252" font-weight="bold">4. Release</text>
+    <text x="700" y="274">Exit at the chosen angle;</text>
+    <text x="700" y="294">glider leaves on the tangent</text>
+    <text x="700" y="314">and begins to glide.</text>
+  </g>
+  <text x="60" y="400" font-weight="bold">Note on the sketch:</text>
+  <text x="60" y="422" fill="#333">The source notes say the elevator "fires" via an "elevator propeller" and that the elevator doubles as the magazine.</text>
+  <text x="60" y="442" fill="#333">The exact mechanism for driving the glider out of the tube is not fully specified - see Open questions.</text>
+</svg>

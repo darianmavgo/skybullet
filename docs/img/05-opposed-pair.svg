@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="900" height="520" fill="#f4f8fc"/>
+  <text x="450" y="28" text-anchor="middle" font-size="20" font-weight="bold">Fig 5 - Top view: 360° targeting and opposed-pair launch</text>
+  <circle cx="300" cy="280" r="190" fill="none" stroke="#bbb" stroke-dasharray="6 5"/>
+  <text x="300" y="70" text-anchor="middle" fill="#666">Tip circle</text>
+  <line x1="120" y1="280" x2="480" y2="280" stroke="#333" stroke-width="8"/>
+  <circle cx="300" cy="280" r="9" fill="#333"/>
+  <path d="M340,230 A50,50 0 0 1 340,330" fill="none" stroke="#c33" stroke-width="2" marker-end="url(#a)"/>
+  <text x="352" y="285" fill="#c33">ω</text>
+  <!-- gliders at tips -->
+  <polygon points="480,280 520,272 520,288" fill="#e8a33d" stroke="#333"/>
+  <polygon points="120,280 80,272 80,288" fill="#e8a33d" stroke="#333"/>
+  <!-- tangent velocity -->
+  <line x1="490" y1="270" x2="490" y2="170" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="500" y="200">v (tangent)</text>
+  <line x1="110" y1="290" x2="110" y2="390" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="120" y="380">v (tangent)</text>
+  <text x="300" y="500" text-anchor="middle" fill="#333">Two gliders released together leave in opposite directions.</text>
+  <rect x="580" y="90" width="300" height="270" fill="#fff" stroke="#999"/>
+  <text x="595" y="114" font-weight="bold">Why pairs may help</text>
+  <text x="595" y="140">- Rotor stays balanced: releasing a</text>
+  <text x="595" y="160">  single mass shifts the centre of</text>
+  <text x="595" y="180">  mass and shakes the platform.</text>
+  <text x="595" y="206">- Net linear momentum change on a</text>
+  <text x="595" y="226">  hovering platform is about zero.</text>
+  <text x="595" y="252">- Release timing sets bearing; two</text>
+  <text x="595" y="272">  opposite targets per half-turn.</text>
+  <text x="595" y="298">Cost: both targets are 180° apart;</text>
+  <text x="595" y="318">needs two loaded tube arms.</text>
+</svg>
