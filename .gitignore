@@ -9,8 +9,9 @@ blender/renders/*
 sim/__pycache__/
 sim/.venv/
 *.pyc
-# Godot 4
-sky-bullet/.godot/
-sky-bullet/export_presets.cfg
+# Godot 4+
+.godot/
+/android/
+export_presets.cfg
 # Secrets
 .env

@@ -17,7 +17,7 @@ from pathlib import Path
 
 API = "https://api.poly.pizza/v1"
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_DEST = ROOT / "sky-bullet" / "assets" / "models" / "polypizza"
+DEFAULT_DEST = ROOT / "assets" / "models" / "polypizza"
 LOG = ROOT / "ASSETS_LICENSES.md"
 
 

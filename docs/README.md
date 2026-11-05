@@ -65,6 +65,8 @@ Release speed is the tip speed, `v = ω·r`. The acceleration on the payload at 
 
 For a human payload ("Ergo question: max launch acceleration for humans"), a sustained load of about 5 g is a commonly cited tolerable level for untrained people. That means a bigger radius for a given speed. Cargo gliders can take far more, limited by structure and payload fragility.
 
+Comparison Stomping Gas on Model Y Performance Edition:
+• The Launch (Peak Gs): Because electric motors deliver instant torque, the hardest hit happens right off the line (0 to 30 mph). During this initial burst, the car spikes to its peak of around 0.85g to 0.9g. This is the force that firmly pins your head against the headrest.
 ## 7. Opposed pairs
 
 The second photo asks: *"Any efficiencies from launching pairs in opposite direction?"*
